@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    background-color: #121212;
+    color: white;
+    font-family: 'Courier New', monospace;
+}
+
+/* NAVBAR */
+nav.liens {
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav.liens a {
+    margin: 0 30px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav.liens a:hover {
+    background-color: #00ffae;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+.container {
+    max-width: 900px;
+    margin: 40px auto 60px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.experience {
+    display: flex;
+    gap: 30px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 25px 30px;
+    box-shadow: 0 0 15px rgba(0, 255, 174, 0.2);
+    align-items: center;
+}
+
+.experience-img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #00ffae;
+    box-shadow: 0 0 15px #00ffae;
+    flex-shrink: 0;
+}
+
+.experience-text {
+    flex: 1;
+}
+
+.experience-text h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #00ffae;
+    margin-bottom: 15px;
+    font-size: 1.47rem;
+}
+
+.experience-text ul {
+    list-style: disc inside;
+    color: #ccc;
+    font-size: 1rem;
+    margin: 0;
+    padding-left: 15px;
+    font-family: 'Courier New', monospace;
+}
+
+.experience-text ul li {
+    margin-bottom: 8px;
+}
+
+
+@media (max-width: 700px) {
+    .experience {
+        flex-direction: column;
+        text-align: center;
+    }
+    .experience-img {
+        margin-bottom: 20px;
+    }
+}
+
+.droits{
+    padding: 40px ;
+    margin-top: 80px;
+    display: flex;
+    justify-content: right;
+    font-family: 'Courier New', monospace;
+}
