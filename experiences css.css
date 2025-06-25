@@ -26,7 +26,7 @@ nav.liens a:hover {
     border-radius: 5px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 400px) {
     nav.liens {
         display: flex;
         flex-direction: column;
