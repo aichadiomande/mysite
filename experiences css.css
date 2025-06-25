@@ -6,7 +6,6 @@ body {
     font-family: 'Courier New', monospace;
 }
 
-/* NAVBAR */
 nav.liens {
     text-align: center;
     padding: 20px 0;
@@ -25,6 +24,20 @@ nav.liens a:hover {
     color: black;
     padding: 5px 10px;
     border-radius: 5px;
+}
+
+@media (max-width: 700px) {
+    nav.liens {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    nav.liens a {
+        margin: 5px 0;
+        display: block;
+    }
 }
 
 
