@@ -6,27 +6,27 @@ body {
     font-family: 'Courier New', monospace;
 }
 
-@media (max-width: 900px) {
-    nav.liens {
-        text-align: center;
-        padding: 20px 0;
-    }
-    
-    nav.liens a {
-        margin: 0 30px;
-        color: white;
-        text-decoration: none;
-        font-family: 'Poppins', sans-serif;
-        transition: background 0.3s, color 0.3s;
-    }
-    
-    nav.liens a:hover {
-        background-color: #00ffae;
-        color: black;
-        padding: 5px 10px;
-        border-radius: 5px;
-    }
+
+nav.liens {
+    text-align: center;
+    padding: 20px 0;
 }
+
+nav.liens a {
+    margin: 0 30px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav.liens a:hover {
+    background-color: #00ffae;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
 
 .container {
     max-width: 900px;
