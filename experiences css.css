@@ -6,7 +6,7 @@ body {
     font-family: 'Courier New', monospace;
 }
 
-
+/* NAVBAR */
 nav.liens {
     text-align: center;
     padding: 20px 0;
@@ -37,7 +37,6 @@ nav.liens a:hover {
     gap: 40px;
 }
 
-/* EXPERIENCE SECTION */
 .experience {
     display: flex;
     gap: 30px;
@@ -83,57 +82,23 @@ nav.liens a:hover {
 }
 
 
-.droits {
-    padding: 40px;
-    margin-top: 80px;
-    display: flex;
-    justify-content: right;
-    font-family: 'Courier New', monospace;
-}
-
-
 @media (max-width: 700px) {
     .experience {
         flex-direction: column;
         text-align: center;
     }
-
     .experience-img {
         margin-bottom: 20px;
     }
-
-    nav.liens {
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    nav.liens a {
-        margin: 10px 0;
-        display: block;
-    }
-
-    .droits {
-        justify-content: center;
-        text-align: center;
-    }
 }
 
-
-@media (max-width: 480px) {
-    .container {
-        padding: 0 10px;
-    }
-
-    .experience-img {
-        width: 120px;
-        height: 120px;
-    }
-
-    .experience-text h2 {
-        font-size: 1.2rem;
-    }
-
+.droits{
+    padding: 40px ;
+    margin-top: 80px;
+    display: flex;
+    justify-content: right;
+    font-family: 'Courier New', monospace;
+}
     .experience-text ul {
         font-size: 0.9rem;
     }
